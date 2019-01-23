@@ -1,0 +1,35 @@
+/* 
+    explanation about css syntax :
+    a. selector : points to the html element you want to style, (example: h1, .name_class, #name_id)
+    b. declaration : block contains one or more declarations separated by semicolons, (example: {color:blue;} )
+    c. property : syntax of declarations, (example: {color: .. ;} )
+    d. value : value of property, (example: { .. : blue; }     
+*/
+
+/* element selector */
+name-element {
+    color: blue;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* class selector */
+.name-class {
+    color: red;
+    text-align: left;
+}
+
+/* id selector */
+#name-id {
+    color: violet;
+    text-align: justify;
+}
+
+/* grouping selector */
+/* grouping selector used when property and value is same */
+name-element-a, 
+name-element-b, 
+name-element-c {
+    text-align: center;
+    color: burlywood;
+} 
