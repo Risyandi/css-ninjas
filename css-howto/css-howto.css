@@ -1,0 +1,43 @@
+/* three ways to insert CSS:
+   a. external style sheet
+   b. internal style sheet
+   c. inline style 
+*/
+
+/* external style sheet: 
+   <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+   </head> 
+*/
+
+/* internal style sheet: 
+   <head>
+        <style>
+            body {
+                background-color: red;
+            }
+            
+            h1 {
+                color: maroon;
+                background-color: red;
+            }
+        </style>
+   </head> 
+*/
+
+/* inline style: 
+   <h1 style="color:blue; margin-left:30px;"> This is a heading </h1> 
+*/
+
+/* =================================================================== */
+
+/* multiple style sheets: 
+   <head>
+        <link rel="stylesheet" type:"text/css" href="style.css">
+        <style>
+            h1 {
+                color: orange;    
+            }
+        </style>
+   </head> 
+*/
