@@ -1,0 +1,37 @@
+/* 
+colors are specified using predefined:
+A. Color Names
+    Color names example:
+    - tomatos
+    - orange
+    - dodgerBlue
+    - mediumSeaGreen
+    - gray
+    - slateBlue
+    - violet and etc.
+
+B. Background Color
+    Background color example:
+    <h1 style="background-color: DodgerBlue;"> Hello </h1>
+    <p style="background-color: Tomato;"> Lorem </p>
+
+C. Text Color
+    Text color example:
+    <h1 style="color:Tomato;"> Hello </h1>
+    <p style="color:DodgerBlue;"> Lorem </p>
+    <p style="color:MediumSeaGreen;"> Lorem </p>
+
+D. Border Color
+    Text border color example:
+    <h1 style="border:2px solid Tomato;"> Hello </h1>
+    <h1 style="border:2px solid DodgerBlue;"> Hello </h1>
+    <h1 style="border:2px solid Violet;"> Hello </h1>
+
+E. Color Values
+    - color RGB : RGB(red, green, blue); intensity of the color betweeen 0 and 255.
+    - color RGBA : RGBA(red, green, blue, alpha) the alpha paramameter is number 0.0 (fully transparent) and 1.0 (not transparent at all). 
+    - color HEX : #rrggbb; where (rr)red, (gg)green, (bb)blue are hexadecimal values between 00 and ff (same as decimal 00 - 255).
+    - color HSL : HSL(hue, saturation, lightness); hue is degree on the color wheel from 0 to 360. saturation is percentage value 0% to 100%, 
+      lightnees is percentage value 0% (black) to 100% (white).
+    - color HSLA : HSLA(hue, saturation, lightness, alpha) the alpha paramameter is number 0.0 (fully transparent) and 1.0 (not transparent at all).
+*/
