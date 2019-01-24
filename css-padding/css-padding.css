@@ -1,0 +1,23 @@
+/* 
+A. CSS Padding
+    the CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+    - padding individual sides 
+        CSS has properties for specifying the padding for each side of an element:
+        - padding-top       - padding-right
+        - padding-bottom    - padding-left
+      padding properties can have the following values:
+        - length (px, pt, cm, etc)      - percent (%)
+        - inherit 
+      *example:
+       div {
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+    - padding shorthands property
+       *example:    
+        div {
+            padding: 50px 30px 50px 80px;
+        }
+*/
