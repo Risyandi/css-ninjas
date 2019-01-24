@@ -1,0 +1,46 @@
+/*
+A. CSS Border Properties
+    the css border properties allow you to specify the style, width, and color of an element's border.
+B. Border style
+    the border-style property specifies what kind of border to display.
+    the following values are allowed:
+    - dotted    - groove
+    - dashed    - ridge
+    - solid     - inset
+    - double    - outset
+    - none      - hidden
+    *example:
+        p.dotted {
+            border-style: dotted;
+        }
+C. Border width
+    the border-width property specifies the width of the four borders.
+    the width can be set as a specific size (pt, px, cm, em, etc) or by using one of the three pre-defined values: thin, medium and thick.
+    the border-width property can have from one to four values (for the top border, right border, bottom border, and left border).
+    *example:
+        p.one {
+            border-style: solid;
+            border-width: 5px;
+        }
+D. Border color
+    the border-color property is used to set the color of the four borders.
+    the color can be set by:
+    - name      - Hex
+    - RGB       - transparent
+      *example:
+        p.one {
+            border-style: solid;
+            border-width: 5px;
+            border-color: red;
+        }    
+    
+    - border individiual sides
+        Posibble to specify a different border for each side.
+        *example
+        p {                                                 p {
+            border-top-style: dotted;                           border-style: dotted solid dotted solid;
+            border-right-style: solid;                      }
+            border-bottom-style: dotted;        OR
+            border-left-style: solid;
+        }
+ */
