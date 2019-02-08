@@ -1,0 +1,106 @@
+/* css reset all style */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.knock-out-wrap {
+    text-align: center;
+    width: 975px;
+    margin: 0 auto;
+}
+
+/* clip text */
+
+.clip-text {
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .25em;
+    padding: .5em .75em;
+    text-align: center;
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+}
+
+/* background */
+
+.clip-text:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+}
+
+/* text background (black zone) */
+
+.clip-text:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: #000;
+}
+
+/* change the background position to display letter when the black zone isn't here */
+
+.clip-text--no-textzone:before {
+    background-position: -.65em 0;
+}
+
+.clip-text--no-textzone:after {
+    content: none;
+}
+
+/* use background-size cover for photo background and no repeat background */
+
+.clip-text--cover,
+.clip-text--cover:before {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* background image */
+
+.clip-text-one {
+    background-image: url('https://www.hdwallpapers.net/previews/3d-colorful-spiral-1057.jpg');
+}
+
+.clip-text-two {
+    background-image: url('http://lorempixel.com/480/200/nightlife/5/');
+}
