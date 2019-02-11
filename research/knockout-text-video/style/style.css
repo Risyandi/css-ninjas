@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-color: darkorange;
+}
+
+svg {
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.main-knockout-backgrnd {
+    margin: 10% auto;
+    background-color: darkorange;
+}
+
+/* clip svg on background video */
+
+.main-knockout-backgrnd video {
+    display: block;
+    width: 100%;
+    -webkit-clip-path: url(#clip-00);
+    clip-path: url(#clip-00);
+}
+
+/* if you have element are same and class same you can use the properties :nth-of-type(n) */
+
+.main-knockout-backgrnd:nth-of-type(1) {
+    width: 50%;
+}
