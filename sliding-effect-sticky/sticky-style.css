@@ -1,0 +1,35 @@
+.category,
+.title,
+.footer {
+    position: -webkit-sticky;
+    position: sticky;
+    height: 50px;
+}
+
+.category,
+.title {
+    top: 0;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.turqois {
+    background-color: turquoise;
+}
+
+.title {
+    padding-top: 10px;
+}
+
+.footer {
+    bottom: 100px;
+    margin: 10px auto auto auto;
+    z-index: -1;
+}
+
+article {
+    background-image: linear-gradient(to bottom, transparent 50px, #f5a623 50px, #f5a623 calc(100% - 50px), transparent 0);
+    margin: auto auto 50px auto;
+}
