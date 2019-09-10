@@ -1,0 +1,35 @@
+.black {
+    width: 100%;
+}
+
+.black>img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+}
+
+.text2>img {
+    width: 150px;
+    height: 150px;
+    background-repeat: repeat;
+}
+
+.red {
+    background-color: red;
+    width: 100%;
+    padding: 30px;
+}
+
+.coco {
+    width: 100%;
+    padding: 30px;
+    background-image: url(image/street-square.png);
+    background-size: 30px;
+}
+
+.blue {
+    background-color: aquamarine;
+    width: 100%;
+    padding: 30px;
+}
