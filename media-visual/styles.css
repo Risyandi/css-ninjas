@@ -15,21 +15,9 @@
     background-repeat: repeat;
 }
 
-.red {
-    background-color: red;
-    width: 100%;
-    padding: 30px;
-}
-
 .coco {
     width: 100%;
     padding: 30px;
     background-image: url(image/street-square.png);
     background-size: 30px;
-}
-
-.blue {
-    background-color: aquamarine;
-    width: 100%;
-    padding: 30px;
 }
