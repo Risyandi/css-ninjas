@@ -68,7 +68,7 @@ img {
 .people__title {
     text-align: center;
     position: relative;
-    padding-top: 60%;
+    padding-top: 200px;
 }
 
 .people__style {
@@ -136,6 +136,14 @@ img {
     height: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.block-whois:hover {
+    background-color: #2df2aa;
+}
+
+.block-subscribe:hover {
+    background-color: white;
 }
 
 /* modular color */
