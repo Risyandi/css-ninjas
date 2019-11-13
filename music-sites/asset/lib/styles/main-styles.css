@@ -114,6 +114,12 @@ img {
     background-size: cover;
 }
 
+.block-more-feature {
+    background-image: url(../../img/robbie-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .quotes__style {
     max-width: 100%;
     max-height: 100%;
@@ -122,6 +128,14 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 30px;
+}
+
+.block-more-feature img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* modular color */
