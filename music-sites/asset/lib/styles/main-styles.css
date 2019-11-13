@@ -68,7 +68,7 @@ img {
 .people__title {
     text-align: center;
     position: relative;
-    top: 60%;
+    padding-top: 60%;
 }
 
 .people__style {
@@ -110,15 +110,18 @@ img {
 
 .block-quotes {
     background-image: url(../../img/latest-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .quotes__style {
     max-width: 100%;
     max-height: 100%;
-    height: 250px;
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 30px;
 }
 
 /* modular color */
@@ -169,6 +172,14 @@ img {
     padding-top: 30px;
 }
 
+.bot-padding__10px {
+    padding-bottom: 10px;
+}
+
+.bot-padding__20px {
+    padding-bottom: 20px;
+}
+
 .bot-padding__30px {
     padding-bottom: 30px;
 }
@@ -204,6 +215,10 @@ img {
 
 .txt-center {
     text-align: center;
+}
+
+.txt-justify {
+    text-align: justify;
 }
 
 .clearfix {
