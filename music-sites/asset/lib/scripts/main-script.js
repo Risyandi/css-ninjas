@@ -1,4 +1,8 @@
+/**
+ * inits
+ */
 let elemGadget = document.getElementById("gadget");
+let elemMockup = document.getElementById("mockup");
 new WOW().init();
 
 function wowAnimate() {
@@ -11,6 +15,12 @@ function wowAnimate() {
     }
     return wow;
 }
+
+/**
+ * addingClass, removeClass, and changesAnimation
+ * @param {*} paramID : fill with name ID of element
+ * @param {*} paramClass : fill with name class of your animation
+ */
 
 function addingClass(paramID, paramClass) {
     let elementID = document.getElementById(paramID);
@@ -33,6 +43,7 @@ function changesAnimationName(paramID, animationName) {
     }
 }
 
+/** element gadget */
 elemGadget.addEventListener("click", function () {
     changesAnimationName("gadget", "");
     removeClass("gadget", "rotateInDownLeft");
@@ -40,5 +51,16 @@ elemGadget.addEventListener("click", function () {
         removeClass("gadget", "wobble");
     } else {
         addingClass("gadget", "wobble");
+    }
+});
+
+/** element mockup */
+elemMockup.addEventListener("click", function () {
+    changesAnimationName("mockup", "");
+    removeClass("mockup", "rotateInDownLeft");
+    if (elemMockup.classList.contains("wobble")) {
+        removeClass("mockup", "wobble");
+    } else {
+        addingClass("mockup", "wobble");
     }
 });

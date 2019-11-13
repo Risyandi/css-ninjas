@@ -108,6 +108,13 @@ img {
     bottom: 23px;
 }
 
+.mockup__image img {
+    position: relative;
+    min-width: 850px;
+    left: -90%;
+    bottom: 23px;
+}
+
 .block-quotes {
     background-image: url(../../img/latest-img.jpg);
     background-repeat: no-repeat;
