@@ -1,4 +1,5 @@
 /* css reset reference : https://alligator.io/css/minimal-css-reset */
+
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -26,6 +27,7 @@ img {
 }
 
 /* css font-face reference : https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face */
+
 @font-face {
     font-family: "brandon-bold";
     src: url(../../font/brandon-bold.woff) format("woff");
@@ -103,7 +105,7 @@ img {
     min-width: 700px;
     max-width: 600px;
     left: -50%;
-    bottom: 50px;
+    bottom: 23px;
 }
 
 .block-quotes {
@@ -113,22 +115,28 @@ img {
 .quotes__style {
     max-width: 100%;
     max-height: 100%;
-    height: 300px;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 /* modular color */
-.color__white { 
+
+.clr__white {
     color: white;
 }
 
-.bg-color__greenlight {
+.clr__bluedark {
+    color: rgb(46, 69, 172);
+}
+
+.bg-clr__greenlight {
     background-color: #2df2aa;
 }
 
 /* modular layout   */
+
 .top-bottom-margin__zero {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -144,7 +152,61 @@ img {
     margin-right: 20px;
 }
 
+.left-right-margin__30px {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.top-padding__10px {
+    padding-top: 10px;
+}
+
+.top-padding__20px {
+    padding-top: 20px;
+}
+
+.top-padding__30px {
+    padding-top: 30px;
+}
+
+.bot-padding__30px {
+    padding-bottom: 30px;
+}
+
+.top-bottom-padding__10px {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-bottom-padding__20px {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top-bottom-padding__30px {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /* modular font style */
-.txt__bold {
+
+.txt-bold {
     font-weight: bold;
+}
+
+.txt-uppercase {
+    text-transform: uppercase;
+}
+
+.txt-capitalize {
+    text-transform: capitalize;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
 }
