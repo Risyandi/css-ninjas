@@ -7,17 +7,29 @@ html {
     overflow-x: hidden;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
     margin: 0;
     padding: 0;
     font-weight: normal;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
@@ -111,7 +123,7 @@ img {
 .mockup__image img {
     position: relative;
     min-width: 850px;
-    left: -90%;
+    left: -100%;
     bottom: 23px;
 }
 
@@ -253,4 +265,32 @@ img {
 .clearfix {
     display: block;
     clear: both;
+}
+
+/* responsive media queries */
+
+@media(max-width: 320px) {
+    .gadget__image img {
+        left: -50%;
+    }
+}
+
+@media(min-width: 321px) and (max-width: 375px) {
+    .gadget__image img {
+        left: -45%;
+    }
+
+    .mockup__image img {
+        left: -70%;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .gadget__image img {
+        left: -30%;
+    }
+
+    .mockup__image img {
+        left: -70%;
+    }
 }
