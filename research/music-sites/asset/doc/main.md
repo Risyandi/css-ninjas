@@ -1,4 +1,4 @@
-Contoh animasi infinite:
+bagaimana untuk membuat animasi infinite:
 ```css
 .wrapper-ipad {
     margin: auto;
@@ -40,7 +40,7 @@ element html yang digunakan:
 </div>
 ```
 
-Melakukan rotasi dengan transform:
+bagaimana melakukan rotasi dengan transform:
 ```css
 .name-class { 
     transform: rotateX(3.14rad); 
@@ -51,4 +51,3 @@ Short hand untuk animasi:
 .name-class { 
     animation: 10s slideAnimate alternate infinite; 
 }
-```
